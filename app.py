@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 # Load pickled data
-with open('data.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 #model = pickle.load(open('model.pkl','rb'))
